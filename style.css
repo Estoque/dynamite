@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*********************************************************************************************************
+-페이지 별 베너 기능-
+해당 부위의 배경이미지를 원하는 이미지로 바꿔보세요 
+**********************************************************************************************************/
+
+/* 티에디션 */
+header.tedition {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);
+}
+
+/* 검색 결과 */
+header.search {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}
+
+/* 위치로그 */
+header.local {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}	
+
+/* 태그 로그 */
+header.tag {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}	
+/* 미디어 로그 */
+header.media {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}		
+/* 키워드 */
+header.keyword {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}	
+/* 방명록 */
+header.guest {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}
+/* 공지사항 */
+header.notice {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}	
+/* 비밀글 */
+header.protected {
+	background: url(http://cfile29.uf.tistory.com/original/272F3E3B534038BE0AFD43);	
+}
+
+/* 게시글*/
+header.article {
+	background: url(http://cfile2.uf.tistory.com/original/264E633B534038C0019EFE);
+}
+
+/* 프로필 부분 */
+section.profile {
+	background: url(http://cfile1.uf.tistory.com/original/254CA93B534038BF2BA626);
+}
+
+/* 하단부 */
+footer {
+	background: url(http://cfile6.uf.tistory.com/original/2230603B534038BF3556D8);	
+}

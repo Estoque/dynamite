@@ -1,0 +1,642 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 uldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 uldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 uldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hare">
+    <meta name="author" content="Hare">
+    <meta name="keywords" content="[##_meta_http_equiv_keywords_##]">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" >	
+	<title>[##_title_##] :: [##_page_title_##]</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+	<style type="text/css">
+		@import url(http://weloveiconfonts.com/api/?family=entypo);
+		
+		/* entypo */
+		[class*="entypo-"]:before {
+		  font-family: 'entypo', sans-serif;
+		}		
+	</style>
+	
+	<link rel="stylesheet" href="./images/gumby.css">
+	<script src="./images/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="./images/dynamite.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="./style.css" >
+</head>
+
+<body>
+
+<s_t3>
+	<section class="tedition" style="display:none;">
+		<header class="parallax tedition" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>			
+	</section>
+	<div id="content">					
+		<s_list>
+		<header class="parallax search" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>			
+			<section id="searchList" class="nonEntry row">
+				<h3>'[##_list_conform_##]'에 해당되는 글 [##_list_count_##]건</h3>
+				<ul>
+					<s_list_rep>
+						<li>
+							<span class="date">[##_list_rep_regdate_##]</span>&nbsp;
+							<a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
+							<span class="cnt">[##_list_rep_rp_cnt_##]</span>
+						</li>
+					</s_list_rep>
+				</ul>
+			</section>
+		</s_list>
+
+		<s_local>
+		<header class="parallax local" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Local Log</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>			
+			<section id="localog" class="nonEntry row">
+				<h3>Local Log</h3>
+				<s_local_spot_rep>
+					<div class="spot" style="margin-left: [##_local_spot_depth_##]px">
+						[##_local_spot_##]
+					</div>
+				</s_local_spot_rep>
+				<s_local_info_rep>
+					<div class="info" style="margin-left: [##_local_info_depth_##]px">
+						<a href="[##_local_info_link_##]">[##_local_info_title_##]</a>
+					</div>
+				</s_local_info_rep>
+			</section>
+		</s_local>
+
+		<s_tag>
+		<header class="parallax tag" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Tag Cloud</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>					
+			<section id="taglog" class="nonEntry row">
+				<h3>Tag Cloud</h3>
+					<s_tag_rep>
+							<a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>,
+					</s_tag_rep>
+			</section>
+		</s_tag>
+
+		<s_media>
+		<header class="parallax media" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Media Log</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>		
+			<section class="medialog row">
+				<h3>Media Log</h3>
+				[##_media_content_##]
+			</section>			    
+		</s_media>			
+	
+		<s_keyword>
+		<header class="parallax keyword" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Key Log</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>				
+			<section class="keyword row">
+				<h3>Key Log</h3>
+					<ul>
+						<s_keyword_rep>
+							<li>
+							<a href="#void" onclick="[##_onclick_keyword_##]">[##_keyword_label_##]</a>
+							</li>
+						</s_keyword_rep>
+					</ul>
+			</section>
+		</s_keyword>
+
+		<s_guest>
+		<header class="parallax guest" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Guestbook</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			<ul>	
+			<li class="t_menu_home first">
+					<a href="/">Home</a>
+				</li>
+				<li class="t_menu_category">
+					<a href="/category/0">Category</a>
+				</li>
+				<li class="t_menu_guestbook">
+					<a href="/guestbook">Guestbook</a>
+				</li>
+				<li class="t_menu_category last">
+					<a href="/category/0">Profile</a>
+				</li>
+			</ul>
+		</nav>				
+			<article id="guestbook" class="nonEntry row">
+				<h3>Guestbook</h3>
+				<s_guest_input_form>
+					<div id="guestWrite" class="field">
+						<s_guest_member>
+							<s_guest_form>
+								<p class="writerInfo">
+									<label for="name">Name</label>
+									<input class="input" type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" >
+								</p>
+								<p class="writerInfo">
+									<label for="password">Password</label>
+									<input class="input" type="password" name="[##_guest_input_password_##]" value="" >
+								</p>
+								<p class="writerInfo">
+									<label for="homepage">Homepage</label>
+									<input class="input" type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="homepage" >
+								</p>
+							</s_guest_form>
+							<label class="checkbox" for="secret">
+							    <input type="checkbox" name="[##_guest_input_is_secret_##]">
+							    <span></span> 비밀글
+							</label>								
+						</s_guest_member>
+						<p>
+							<textarea class="input textarea" placeholder="방명록을 남겨주세요" name="[##_guest_textarea_body_##]" culs="50" rows="6"></textarea>
+						</p>
+						<p>
+							<button class="submit" type="submit" value="안부 남기기" onclick="[##_guest_onclick_submit_##]" class="submit" >Submit</button>
+						</p>
+					</div><!-- guestWrite close -->
+				</s_guest_input_form>
+
+				<s_guest_container>
+					<div id="guestList">
+						<ul>
+							<s_guest_rep>
+								<li id="[##_guest_rep_id_##]">
+									<div class="[##_guest_rep_class_##]">
+										<p class="ctrlGuest">
+										<span class="name">[##_guest_rep_name_##]</span>
+										<span class="date"> [##_guest_rep_date_##]</span>
+										<span class="contrul">
+											<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify" title="수정/삭제"><span class="entypo-cancel-squared"></span></a>
+											<a href="#" onclick="[##_guest_rep_onclick_reply_##]" class="write" title="댓글쓰기">&nbsp;<span class="entypo-level-down"></span></a>
+										</span></p>
+										<p class="desc">[##_guest_rep_desc_##]</p>
+									</div>
+									<s_guest_reply_container>
+										<ul>
+											<s_guest_reply_rep>
+												<li id="[##_guest_rep_id_##]">
+													<div class="[##_guest_rep_class_##]">
+														<p class="ctrlGuestRe">
+														<span class="name">[##_guest_rep_name_##]</span>
+														<span class="date"> [##_guest_rep_date_##]</span>
+														<span class="contrul">
+															<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">&nbsp;<span class="entypo-cancel-squared"></span></a>
+														</span></p>
+														<p class="reDesc">[##_guest_rep_desc_##]</p>
+													</div>
+												</li>
+											</s_guest_reply_rep>
+										</ul>
+									</s_guest_reply_container>
+								</li>
+							</s_guest_rep>
+						</ul>
+					</div><!-- guestList close -->
+				</s_guest_container>
+			</article><!-- guestbook close -->
+		</s_guest>
+
+		<s_notice_rep>
+		<header class="parallax notice" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">Notice</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>					
+			<article class="entryNotice row">
+				<h3><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h3>
+				<span  class="articleDate">[##_notice_rep_date_##]</span>
+				<div class="article">
+					[##_notice_rep_desc_##]
+				</div>
+			</article>
+		</s_notice_rep>
+
+		<s_article_protected>
+		<header class="parallax protected" gumby-parallax="0.5">
+			<div class="row">
+					<h1 class="valign"><a href="[##_blog_link_##]">*****</a></h1>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>					
+			<article class="entryProtected row">
+				<h3><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+				<span class="articleDate">[##_article_rep_date_##]</span>
+
+				<fieldset>
+				  <legend><h4><span class="entypo-lock"></span> 보호되어 있는 글입니다.</h4> </legend>
+					<div class="field">
+						<label class="inline" for="[##_article_password_##]">비밀번호</label>
+						<input class="wide text input pass" id="[##_article_password_##]" name="[##_article_password_##]" type="password" onkeydown="if (event.keyCode == 13) [##_article_dissolve_##]">
+						<button type="button" class="submit" value="확인" onclick="[##_article_dissolve_##]">Submit</button>
+					</div>
+				</fieldset>				
+			</article>
+		</s_article_protected>
+
+		<s_article_rep>
+		<header class="parallax article" gumby-parallax="0.5">
+			<div class="row">
+					<h2><a href="[##_blog_link_##]">[##_article_rep_title_##]</a></h2>
+			</div>
+		</header>
+		<nav class="blogMenu" gumby-fixed="top" gumby-pin="#profile">
+			[##_blog_menu_##]
+		</nav>							
+			<article class="articleBody row">
+<!-- 					<h3><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3> -->
+				<span class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a> </span>
+				<span class="articleDate">[##_article_rep_date_##]</span>
+				<s_ad_div>
+					<div class="admin">
+						<a href="[##_s_ad_m_link_##]">수정</a> :
+						<a href="#" onclick="[##_s_ad_m_onclick_##]">수정(창으로)</a> |
+						([##_s_ad_s1_label_##])→<a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> |
+						<a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> |
+						<a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a> |
+						<a href="[##_owner_url_##]">관리자</a>
+						<a href="[##_owner_url_##]/entry/post">글쓰기</a>						
+					</div>
+				</s_ad_div>
+				<div class="article">
+					[##_article_rep_desc_##]
+				</div>
+				
+				<s_tag_label>
+					<div class="tagTrail">
+						<span class="entypo-tag"></span> [##_tag_label_rep_##]
+					</div>
+				</s_tag_label>
+
+				<div class="actionTrail">
+						<a href="#rp" onclick="[##_article_rep_rp_link_##]"><s_rp_count><span class="entypo-chat"></span> <span class="cnt">[##_article_rep_rp_cnt_##]</span></s_rp_count></a>				
+						<a href="#tb" onclick="[##_article_rep_tb_link_##]"><s_tb_count><span class="entypo-switch"></span><span class="cnt">[##_article_rep_tb_cnt_##]</span></s_tb_count></a>
+				</div>
+
+				<s_tb>
+					<div class="trackback">
+						<h5>Trackback address : [##_tb_address_##]</h5>
+						<s_tb_container>
+							<ul>
+								<s_tb_rep>
+									<li id="[##_tb_rep_id_##]">
+										<h6>Subject : <a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofullow">[##_tb_rep_title_##]</a></h4>
+										<span class="from">Tracked from <span class="name">[##_tb_rep_site_##]</span></span>
+										<span class="date">[##_tb_rep_date_##]</span>
+										<a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete">&nbsp;<span><span class="entypo-cancel-squared"></span></span></a>
+										<p>[##_tb_rep_desc_##]</p>
+									</li>
+								</s_tb_rep>
+							</ul>
+						</s_tb_container>
+					</div><!-- trackback close -->
+				</s_tb>
+
+				<s_rp>
+					<div class="comment">
+						<div class="commentList">
+							<s_rp_container>
+								<ul>
+									<s_rp_rep>
+										<li id="[##_rp_rep_id_##]">
+											<div class="[##_rp_rep_class_##]">
+												<p class="commentContrul">
+												<span class="name">[##_rp_rep_name_##]</span>
+												<span class="date"> [##_rp_rep_date_##]</span>
+												<span class="contrul">
+													<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify" title="수정/삭제">&nbsp;<span><span class="entypo-cancel-squared"></span></span></a>
+													<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write" title="댓글쓰기">&nbsp;<span><span class="entypo-level-down"></span></span></a>
+												</span>
+												</p>
+												<p>[##_rp_rep_desc_##]</p>
+											</div>
+											<s_rp2_container>
+												<ul>
+													<s_rp2_rep>
+														<li id="[##_rp_rep_id_##]">
+															<div class="[##_rp_rep_class_##]">
+																<span class="name">[##_rp_rep_name_##]</span>
+																<span class="date"> [##_rp_rep_date_##]</span>
+																<span class="contrul">
+																	<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span><span class="entypo-cancel-squared"></span></span></a>
+																</span>
+																<p>[##_rp_rep_desc_##]</p>
+															</div>
+														</li>
+													</s_rp2_rep>
+												</ul>
+											</s_rp2_container>
+										</li>
+									</s_rp_rep>
+								</ul>
+							</s_rp_container>
+						</div><!-- commentList close -->
+
+						<s_rp_input_form>
+							<div class="commentWrite field">
+								<s_rp_member>
+									<s_rp_guest>
+										<p class="writerInfo">
+											<label for="name">Name</label>
+											<input class="input" type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" >
+										</p>
+										<p class="writerInfo">
+											<label for="password">Password</label>
+											<input class="input" type="password" name="[##_rp_input_password_##]" value="" >
+										</p>
+										<p class="writerInfo">
+											<label for="homepage">Homepage</label>
+											<input class="input" type="text" class="homepage" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]">
+										</p>
+									</s_rp_guest>
+									<p class="secretWrap">
+<!--
+										<input type="checkbox" name="[##_rp_input_is_secret_##]">
+										<label class="checkbox" for="secret"> 비밀글 </label>
+-->
+										<label class="checkbox" for="secret">
+										    <input type="checkbox" name="[##_rp_input_is_secret_##]">
+										    <span></span> 비밀글
+										</label>										
+									</p>
+								</s_rp_member>
+								<p class="clear">
+									<textarea class="input textarea" placeholder="댓글을 남겨주세요" name="[##_rp_input_comment_##]" rows="10" culs="30"></textarea>
+								</p>
+								<p>
+									<button type="submit" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" class="submit" >Submit</button>
+								</p>
+							</div><!-- commentWrite close -->
+						</s_rp_input_form>
+
+					</div><!-- comment close -->
+				</s_rp>
+			</article><!-- entry close -->
+		</s_article_rep>
+
+		<s_paging>
+			<div id="paging" class="row">
+				<a [##_prev_page_##] class="[##_no_more_prev_##]" id="prevPage"><span class="entypo-left-open-big"></span></a>
+				<span class="numbox">
+					<s_paging_rep>
+					<a [##_paging_rep_link_##] class="num"> [##_paging_rep_link_num_##]</a>
+					</s_paging_rep>
+				</span>
+				<a [##_next_page_##] class="[##_no_more_next_##]" id="nextPage"><span class="entypo-right-open-big"></span></a>
+			</div>
+		</s_paging>
+	</div><!-- content close -->
+	
+	<section class="parallax profile" gumby-parallax="0.5" id="profile">
+		<div class="row">
+			<div class="profileLayer">
+				<img src="[##_image_##]" alt="블로그 이미지" class="profileImage" >
+<!-- 				<img src="http://lorempixel.com/120/120/cats" alt="" /> -->
+				<p class="blogDesc">[##_desc_##]</p>
+				<h4 class="userID">[##_blogger_##]</h4>			
+			</div>
+		</div>
+	</section>
+
+	<aside class="row" id="sidebar">
+		<s_sidebar>
+			<!-- 기본 사이드바 -->
+			<s_sidebar_element>
+			<!-- 블로그 프로필 모듈 -->
+		
+			</s_sidebar_element>
+			
+			<s_sidebar_element>
+			<!-- 검색 모듈 -->
+				<div id="searchBox" class="field">
+					<s_search>
+						<input class="input" type="text" placeholder="Press Return to Search..." name="[##_search_name_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
+					</s_search>
+				</div>
+			</s_sidebar_element>			
+			
+			<s_sidebar_element>
+			<!-- 카테고리 모듈 -->
+				<div id="category">
+					<h3>Category</h3>
+					[##_category_list_##]
+				</div>
+			</s_sidebar_element>			
+
+			<s_sidebar_element>
+			<!-- 공지사항 모듈1 -->
+			<section class="tabs pill">
+			
+			    <ul class="tab-nav">
+			        <li><a href="#">Trackbacks</a></li>
+			        <li class="active"> <a href="#">Posts</a></li>
+			        <li><a href="#">Comments</a></li>
+			    </ul>
+			
+			    <div class="tab-content">
+					<h3>Recent Trackbacks</h3>
+					<ul>
+						<s_rcttb_rep>
+							<li>
+								<a href="[##_rcttb_rep_link_##]">[##_rcttb_rep_desc_##]</a>
+								<span class="info">
+									<span class="name">[##_rcttb_rep_name_##]</span>
+									<span class="date">[##_rcttb_rep_time_##]</span>
+								</span>
+							</li>
+						</s_rcttb_rep>
+					</ul>
+			    </div>
+			    <div class="tab-content active">
+					<h3>Recent Posts</h3>
+					<ul>
+						<s_rctps_rep>
+							<li>
+								<a href="[##_rctps_rep_link_##]"> [##_rctps_rep_title_##]</a>
+								<span class="cnt">[##_rctps_rep_rp_cnt_##]</span>
+							</li>
+						</s_rctps_rep>
+					</ul>
+			    </div>
+			    <div class="tab-content">
+					<h3>Recent Comments</h3>
+					<ul id="recentComments">
+						<s_rctrp_rep>
+							<li>
+								<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##]</a>
+								<span class="info">
+									<span class="name">[##_rctrp_rep_name_##]</span>
+									<span class="date">[##_rctrp_rep_time_##]</span>
+								</span>
+							</li>
+						</s_rctrp_rep>
+					</ul>
+			    </div>			    
+			
+			</section>
+			</s_sidebar_element>
+			
+			<s_sidebar_element>
+			<!-- 공지사항 모듈2 -->
+			<section class="tabs pill">
+			
+			    <ul class="tab-nav">
+			        <li><a href="#">Notice</a></li>
+			        <li class="active"> <a href="#">Tag Cloud</a></li>
+			        <li><a href="#">Archive</a></li>
+			    </ul>
+			
+			    <div class="tab-content">
+					<s_rct_notice>
+						<div id="notice">
+							<h3>Notice</h3>
+							<ul>
+								<s_rct_notice_rep>
+									<li><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a> </li>
+								</s_rct_notice_rep>
+							</ul>
+						</div>
+					</s_rct_notice>
+			    </div>
+			    <div class="tab-content active">
+					<h3>Tag Cloud</h3>
+					<s_random_tags>
+						<a href="[##_tag_link_##]" class="[##_tag_class_##]"> [##_tag_name_##]</a>,
+					</s_random_tags>					
+			    </div>
+			    <div class="tab-content">
+					<h3>Archive</h3>
+					<ul>
+						<s_archive_rep>
+							<li>
+								<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+								<span class="cnt">[##_archive_rep_count_##]</span>
+							</li>
+						</s_archive_rep>
+					</ul>
+			    </div>			    
+			
+			</section>	
+			</s_sidebar_element>			
+
+
+			<s_sidebar_element>
+			<!-- 달력 모듈 -->
+				<div id="calendar">
+					<h3>Calendar</h3>
+					[##_calendar_##]
+				</div>
+			</s_sidebar_element>
+
+			<s_sidebar_element>
+			<!-- 링크 모듈 -->
+				<div id="link">
+					<h3>Links</h3>
+					<ul>
+						<s_link_rep>
+							<li>
+								<a href="[##_link_url_##]" onclick="window.open(this.href); return false"> [##_link_site_##]</a>
+							</li>
+						</s_link_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>
+
+			<s_sidebar_element>
+			<!-- 카운터 모듈 -->
+				<div id="counter">
+					<div class="row">
+					  <div class="four columns">
+						<p class="title">Total</p>
+						<p class="number">[##_count_total_##]</p>
+					  </div>
+					  <div class="four columns">
+						<p class="title">Today</p>
+						<p class="number">[##_count_today_##]</p>
+					  </div>
+					  <div class="four columns">
+						<p class="title">Y day</p>
+						<p class="number">[##_count_yesterday_##]</p>
+					  </div>
+					</div>					
+				</div>
+			</s_sidebar_element>
+		</s_sidebar>
+	</aside><!-- sidebar close -->
+	<footer class="parallax" gumby-parallax="0.5">
+		<div class="row valign">
+			<div class="footMenu">
+				<p class="skiplink"><a class="entypo-up-open" href="#" gumby-goto="top"></a></p>
+				<p><a href="[##_owner_url_##]">Admin</a> / <a href="[##_owner_url_##]/entry/post">Post</a><br /></p>
+				<p><a href="[##_blog_link_##]"> [##_blogger_##]</a>'s Blog is designed by <a href="http://est0que.tistory.com">Estoque</a><br /></p>
+				<p>Dear. IE users. I'll give you a victory V-sign.</p>
+			</div>
+		</div>
+	</footer>
+</s_t3>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/libs/gumby.min.js"></script>
+	<script type="text/javascript" src="bower_components/gumby-parallax/gumby.parallax.js"></script>
+	<script type="text/javascript" src="./images/gumby.min.js"></script>
+	<script type="text/javascript" src="./images/gumby.parallax.js"></script>	
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+  </body>
+</html>

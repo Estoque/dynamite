@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Dynamite</name> 
+		<version>1.0</version>
+		<description>
+		<![CDATA[ HTML5,CSS3 기반 IE9이하의 브라우저는 지원안함. 최신 브라우저 사용을 권장. 하위지원은 전혀 고려하지 않음. W3C Validator HTML/CSS모두 통과. 하위지원/ 스킨 커스텀 수정 요청 일절 거부. 수정은 허용, 재배포 금지. 하단부 저작자 표시 제거 또는 수정금지. ]]>
+		</description>
+		<license>
+		<![CDATA[무단수정 금지 / 재배포 금지 / 스킨 관련 문의 http://est0que.tistory.com ]]>
+		</license>
+	</information> 
+	<author>
+		<name>Estoque(에스토크)</name>
+		<homepage>http://est0que.tistory.com</homepage>
+		<email>incusx@naver.com</email>
+	</author> 
+	<default>
+		<expandComment>0</expandComment>
+		<recentEntries>5</recentEntries> 
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>15</itemsOnGuestbook>
+		<tagsInCloud>20</tagsInCloud>
+		<sortInCloud>1</sortInCloud> 		
+		<expandTrackback>0</expandTrackback> 
+		<lengthOfRecentNotice>30</lengthOfRecentNotice>
+		<lengthOfRecentEntry>30</lengthOfRecentEntry>
+		<lengthOfRecentComment>30</lengthOfRecentComment> 
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback> 
+		<lengthOfLink>30</lengthOfLink>
+		<showListOnCategory>0</showListOnCategory>
+		<showListOnArchive>0</showListOnArchive> 
+		<tree>
+			<color>000000</color> 
+			<bgColor>ffffff</bgColor>
+			<activeColor>000000</activeColor> 
+			<activeBgColor>eeeeee</activeBgColor>
+			<labelLength>27</labelLength> 
+			<showValue>0</showValue>
+		</tree>
+		<contentWidth>940</contentWidth>
+	</default>
+</skin>
